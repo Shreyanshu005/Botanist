@@ -1,0 +1,660 @@
+body{
+    background-color: #fbf9ef;
+    padding: 0;
+    margin: 0;
+    display: block;
+    max-width: 100%;
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    align-items: center;
+   
+}
+.navbar img{
+   height: 70px;
+   margin-left: 90px;
+   cursor: pointer;
+}
+.navitems{
+    display: flex;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.navitems p{
+    margin-left: 70px;
+    cursor: pointer;
+}
+.navbuttons{
+    width:max-content;
+   float: right;
+   margin-left: 400px;
+   
+}
+#login{
+    background-color: #658352;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 53px;
+    margin-left: 20px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+#signup{
+    background-color: #fbf9ef;
+    color: #658352;
+    border: 2px solid #658352;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 53px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+.mainSection{
+    /* display: flex; */
+   padding-top: 150px;
+    height: 40vh;
+    text-align: center;
+    
+}
+.mainSection h1{
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+ 
+  
+
+}
+.mainSection h3{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+}
+#getStarted{
+    background-color: #658352;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 53px;
+    margin-left: 20px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+#learn{
+    background-color: #fbf9ef;
+    color: #658352;
+    border: 2px solid #658352;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 53px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+.img{
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+  
+    
+}
+.img2{
+    overflow: hidden;
+    /* padding: 60px 0; */
+    white-space: nowrap;
+    margin-bottom: 200px;
+    
+}
+.img-slide{
+   
+    animation: 10s slide infinite linear;
+}
+.img2-slide{
+   
+    animation: 10s slide2 infinite linear;
+}
+.img-slide img{
+    height: 350px;
+    margin: 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.img2-slide img{
+    height: 350px;
+    margin: 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-225%);
+    }
+}
+@keyframes slide2{
+    from{
+        transform: translateX(-225%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.img:hover .img-slide{
+    animation-play-state: paused;
+    
+}
+.img2:hover .img2-slide{
+    animation-play-state: paused;
+}
+.expert img{
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 60px;
+}
+.expert{
+    display: flex;
+    
+}
+.expert .chat{
+    width: 400px;
+}
+.expert p{
+    font-size: 30px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    border-left: 2px solid black;
+    height: 40px;
+    padding-left: 20px;
+    
+}
+.expert .subtext{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.expert .disease{
+    margin-top: 50px;
+    border: 0;
+}
+.expert #diseaseSubtext{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-top: 0;
+}
+.expert #personalized{
+    padding-top: 40px;
+    border: 0;
+}
+.expert #personalizedSub{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-top: 0;
+    border: 0;
+}
+.expert2 img{
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 60px;
+}
+.expert2{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 150px;
+    
+}
+.expert2 .chat{
+    width: 400px;
+}
+.expert2 p{
+    font-size: 30px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    border-left: 2px solid black;
+    height: 40px;
+    padding-left: 20px;
+    
+}
+.expert2 .subtext{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.expert2 .disease{
+    margin-top: 50px;
+    border: 0;
+}
+.expert2 #diseaseSubtext{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-top: 0;
+}
+.expert2 #personalized{
+    padding-top: 40px;
+    border: 0;
+}
+.expert2 #personalizedSub{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-top: 0;
+    border: 0;
+}
+.askSignup{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 80px;
+    width: 1200px;
+    height: 300px;
+    background-color: #c7baa0;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 80px;
+    transition: transform 0.5s ease;
+}
+.askSignup h1{
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  
+ 
+}
+.askSignup p{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+.text{
+    display: block;
+}
+.askSignup button{
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: #658352;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 53px;
+    cursor: pointer;
+    font-size: 15px;
+   
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.askSignup:hover{
+    background-color: #1c2001;
+    color: white;
+    transform: scale(1.05);
+}
+.pricing h3{
+    text-align: center;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+.pricing h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.pricing{
+    margin-top: 150px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+.switch{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+.switch input{
+    appearance: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background:black;
+    outline: none;
+}
+.switch input::before, .switch input::after{
+   z-index: 2;
+   position: absolute;
+   top: 56%;
+   transform: translateY(-50%);
+}
+
+.switch input::before{
+    content: "Monthly";
+    ;
+    left: 20px;
+    padding-left: 10px;
+    /* color: white;
+    font-size: 20px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; */
+}
+.switch input::after{
+    content: "Yearly";
+    right: 20px;
+    /* padding-right: 10px; */
+    /*color: white;
+   /*font-size: 20px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; */
+}
+.switch input:checked{
+    background:black;
+}
+.switch label{
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    bottom: 4px;
+    border-radius: 20px;
+
+}
+.switch input{
+    transition: 0.2s;
+}
+.switch input:checked::after, .switch input:checked::before{
+    color:white;
+    transition: color 0.5s;
+}
+.switch input:checked::before{
+    padding-left: 10px;
+}
+.switch input:checked + label{
+    left: 10px;
+    right: 100px;
+  background: #658352;
+    transition: left 0.5s ,right 0.4s 0.2s;
+}
+.switch input:not(:checked)::before{
+   
+    color: white;
+    transition: color 0.5s;
+}
+.switch input:not(:checked)::after{
+    color: white;
+    transition: color 0.5s;
+}
+.switch input:not(:checked) + label{
+    left: 100px;
+    right: 10px;
+    background:#658352;
+    
+    transition: left 0.5s 0.2s ,right 0.4s ,background 0.5s;
+}
+.plans{
+    display: flex;
+    padding-top: 150px;
+    padding-left: 100px;
+    
+}
+.basic{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    
+    text-align: center;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 10px;
+
+    
+}
+.plans p {
+    font-size: 15px;
+}
+.basic button{
+    background-color: #fbf9ef;
+    color: #658352;
+    border: 1px solid #658352;
+    padding: 8px 66px;
+    margin-left: 10px;
+    border-radius: 53px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.power{
+    display: flex;
+    padding-left: 120px;
+    margin-top: 100px;
+ 
+}
+.discuss{
+    width: 600px;
+    position: sticky;
+    top: 0;
+    height: 300px;
+}
+.discuss h1{
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.discuss p{
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.stack{
+    margin-left:90px;
+    /* position: relative; */
+    height: 1500px;
+}
+
+
+.card{
+    position:-webkit-sticky;
+    position: sticky;
+    margin-top: 50px;
+    width: 500px;
+    height: 150px;
+  
+    background-color: #b8a877;
+    border-radius: 20px;
+    
+    padding-top: 30px;
+   
+    top: 50px;
+    /* bottom: 50px; */
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    
+}
+.one{
+    transform: rotate(2deg);
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+
+}
+.two{
+    transform: rotate(-2deg);
+    background-color: #c7baa0;
+}
+.three{
+    transform: rotate(2deg);
+}
+.four{
+    transform: rotate(-2deg);
+    background-color: #c7baa0;
+}
+
+.testimonials{
+    width: 100%;
+    height: 500px;
+    display: flex;
+  
+}
+.testimonials h1{
+    text-align: center;
+    font-family: "Inter", system-ui;
+     font-optical-sizing: auto;
+     font-weight: 700;
+     font-style: normal;
+}
+
+.re{
+    background-color: #c7baa0;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 60px;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-family: "Inter", system-ui;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
+}
+.re{
+    padding-left: 20px;
+}
+.samp{
+    font-family: "Inter", system-ui;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
+     margin-bottom: 50px;
+     margin-top: 20px;
+}
+.contact{
+
+    padding-top: 100px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+}
+.sections{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.contact{
+    margin-left: 20px;
+}
+.call{
+    margin-left: 20px;
+}
+.locate{
+    margin-left: 20px;
+}
+.footer{
+    display: flex;
+    height: 350px;
+    padding-top: 100px;
+    padding-left: 170px;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  border-bottom: 1px solid grey;
+}
+.enteremail input{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px 100px;
+    
+    background-color: #fbf9ef;
+}
+.enteremail button{
+    background-color: #fbf9ef;
+    color: #658352;
+    border: 1px solid #658352;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 53px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+.explore{
+
+    margin-left: 100px;
+}
+.legal{
+    margin-left: 100px;
+}
+.end{
+    display: flex;
+    height: 50px;
+    margin-left: 170px;
+}
