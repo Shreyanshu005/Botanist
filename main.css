@@ -129,6 +129,19 @@ body{
     font-style: normal;
     cursor: pointer;
 }
+#show-camera{
+    background-color: #fbf9ef;
+    color: #658352;
+    border: 2px solid #658352;
+    padding: 8px 36px;
+    margin-left: 10px;
+    border-radius: 53px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
 .img{
     overflow: hidden;
     padding: 60px 0;
