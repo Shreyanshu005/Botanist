@@ -26,6 +26,10 @@ body{
 .navitems p{
     margin-left: 70px;
     cursor: pointer;
+
+}
+.navitems p:hover{
+   text-decoration: underline;
 }
 .navbuttons{
     width:max-content;
@@ -59,6 +63,20 @@ body{
     font-weight: 700;
     font-style: normal;
     cursor: pointer;
+}
+#login:hover {
+    background-color: black; /* Change background color to black on hover */
+}
+#getStarted:hover {
+    background-color: black; /* Change background color to black on hover */
+}
+#signup:hover {
+    color: black; /* Change background color to black on hover */
+    border: 2px solid black;
+}
+#learn:hover {
+    color: black; /* Change background color to black on hover */
+    border: 2px solid black;
 }
 .mainSection{
     /* display: flex; */
@@ -129,6 +147,7 @@ body{
    
     animation: 10s slide infinite linear;
 }
+
 .img2-slide{
    
     animation: 10s slide2 infinite linear;
