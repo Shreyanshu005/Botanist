@@ -138,6 +138,7 @@ body{
     margin: 0 5px;
     border-radius: 10px;
     cursor: pointer;
+    
    
 }
 .img2-slide img{
@@ -166,6 +167,7 @@ body{
 }
 .img:hover .img-slide{
     animation-play-state: paused;
+    
     
 }
 .img2:hover .img2-slide{
